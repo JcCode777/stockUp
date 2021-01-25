@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(4, 133, 133);
+  text-align: center;
+}
+.jumbotron {
+  background-image: url("img/city.jpeg");
+
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.stockUp {
+  background-image: url("/img/stock2.svg");
+  height: 200;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 700px 700px;
+  padding: 250px;
+  /*  CARD CLASSES*/
+}
+
+/*  CARD CLASSES*/
+.card {
+  box-shadow: 0 4px 8px 0px rgb(26, 25, 25);
+  
+}
+
+.card-font {
+  font-family: "Mitr", sans-serif;
+  font-size: 200%;
+}
+.card-header {
+  background-color: rgb(24, 24, 24);
+}
+.card-body:hover {
+  background-color: rgb(24, 24, 24);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 4px black;
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+/*  PARALLAX EFFECT*/
+.parallax {
+  /* The image used */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  font-family: "Mitr", sans-serif;
+  color: rgb(0, 255, 221);
+  
+}
+a:hover{
+  transform: scale(1.2);
+}
+
