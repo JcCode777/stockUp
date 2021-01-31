@@ -1,81 +1,57 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #2c3e50, #3a8ada);
+  font-family: "Abril Fatface", cursive;
+  color: aliceblue;
 }
-body {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(125deg,#2c3e50, #16a085, #1abc9c);
-  text-align: center;
+.about {
+  height: 300vh;
+  display: flex;
+}
+.about-title {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  justify-content: center;
   
-}
-.jumbotron {
-  background-image: url("img/city.jpeg");
+  margin: 0!important;
 
-  height: 800px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
-
-.stockUp {
-  background-image: url("/img/stock2.svg");
-  height: 200;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 700px 700px;
-  padding: 250px;
-  /*  CARD CLASSES*/
+.about-pages {
+  width: 50%;
 }
-
-/*  CARD CLASSES*/
-.card {
-  box-shadow: 0 4px 8px 0px rgb(26, 25, 25);
-  
+.about-pages div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
-
-.card-font {
-  font-family: "Mitr", sans-serif;
-  font-size: 200%;
+.about-pages div > p {
+  width: 80%;
+  font-size: 18px;
+  line-height: 30px;
 }
-.card-header {
-  background-color: rgb(24, 24, 24);
+.about-pages div:nth-child(1){
+  background-color: rgb(56,134,89);
 }
-.card-body:hover {
-  background-color: rgb(24, 24, 24);
-  transition: 0.3s;
+.about-pages div:nth-child(2){
+  background-color: rgb(241, 196, 15);
 }
-.card:hover {
-  box-shadow: 0 8px 16px 4px black;
-  transition: 0.3s;
-  transform: scale(1.1);
+.about-pages div:nth-child(3){
+  background-color: rgb(52, 152, 219);
 }
-
-/*  PARALLAX EFFECT*/
-.parallax {
-  /* The image used */
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+footer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  color: white
 }
-h3 {
-  font-family: "Mitr", sans-serif;
-  color: rgb(0, 255, 221);
-  
-}
-a:hover{
-  transform: scale(1.2);
-}
-.navbar{
-  font-family: "Mitr", sans-serif;
-  
-}
-
