@@ -87,7 +87,7 @@ a.promo2:visited {
 
 }
 footer{
-  height:50vh;
+  height:51vh;
   background-color: #343A3F;
 }
 .row-content {
@@ -112,6 +112,7 @@ html{
   color:#fff;
   border-radius:15px;
   text-align: center;
+  box-shadow: 0 4px 8px 0px rgb(26, 25, 25);
 }
 .img-text h2{
   font-size: 25px;
@@ -137,7 +138,14 @@ html{
 .single-box{
   position:relative;
   margin-bottom: 30px;
+  
 }
+div form:hover {
+  box-shadow: 0 8px 16px 4px black;
+  transition: 0.3s;
+  transform: scale(1);
+}
+
 /*.carousel-indicators{
   left:0;
   top:auto;
@@ -158,6 +166,7 @@ div form{
   background:#343A3F;
   padding: 15px;
   margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0px rgb(26, 25, 25);
 }
 .modal-header{
   background-image: linear-gradient(to bottom right, #253a4e, #0cddb3);
